@@ -9,3 +9,6 @@ This includes adding:
 * [eslint-plugin-ship-shape](https://github.com/shipshapecode/eslint-plugin-ship-shape)
 
 The ESLint rules are very similar to the eslint-plugin-ember-suave ones, but a few have been changed.
+
+### Code Climate / Test Coverage
+`codeclimate-test-reporter` is added to the project, so that we can easily update test coverage stats using Travis.
