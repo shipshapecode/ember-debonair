@@ -42,7 +42,7 @@
   ],
   "dependencies": {
     "ember-cli-babel": "^5.1.7",
-    "eslint-plugin-ship-shape": "^0.1.2",
+    "eslint-plugin-ship-shape": "^0.1.2"
   },
   "ember-addon": {
     "configPath": "tests/dummy/config"
