@@ -1,27 +1,11 @@
 # Ember-debonair
 
-This README outlines the details of collaborating on this Ember addon.
+<a href="https://shipshape.io/"><img src="http://i.imgur.com/bU4ABmk.png" width="100" height="100"/></a>
 
-## Installation
+Ember-debonair is an oppinionated set of ESLint rules, addons, configurations, etc used throughout all [Ship Shape](https://shipshape.io) addons and apps.
 
-* `git clone <repository-url>` this repository
-* `cd ember-debonair`
-* `npm install`
-* `bower install`
+This includes adding:
+* [ember-cli-eslint](https://github.com/ember-cli/ember-cli-eslint)
+* [eslint-plugin-ship-shape](https://github.com/shipshapecode/eslint-plugin-ship-shape)
 
-## Running
-
-* `ember serve`
-* Visit your app at [http://localhost:4200](http://localhost:4200).
-
-## Running Tests
-
-* `npm test` (Runs `ember try:each` to test your addon against multiple Ember versions)
-* `ember test`
-* `ember test --server`
-
-## Building
-
-* `ember build`
-
-For more information on using ember-cli, visit [http://ember-cli.com/](http://ember-cli.com/).
+The ESLint rules are very similar to the eslint-plugin-ember-suave ones, but a few have been changed.
