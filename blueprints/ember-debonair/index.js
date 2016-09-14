@@ -3,7 +3,7 @@ module.exports = {
 
   afterInstall: function() {
     return this.addPackageToProject('eslint-plugin-ship-shape')
-    .then(function() {
+    .then(() => {
       return this.addAddonsToProject({
         packages: [
           {
