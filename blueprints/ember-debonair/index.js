@@ -1,3 +1,4 @@
+/* eslint-disable */
 module.exports = {
   normalizeEntityName: function() {},
 
@@ -9,7 +10,7 @@ module.exports = {
     .then(() => {
       return this.addAddonsToProject({
         packages: [
-          'ember-cli-blanket',
+          'ember-cli-code-coverage',
           'ember-cli-eslint',
         ]
       });
