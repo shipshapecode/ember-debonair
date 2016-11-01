@@ -6,6 +6,7 @@ Ember-debonair is an oppinionated set of ESLint rules, addons, configurations, e
 
 This includes adding:
 * [ember-cli-eslint](https://github.com/ember-cli/ember-cli-eslint)
+* [ember-cli-sass](https://github.com/aexmachina/ember-cli-sass)
 * [eslint-plugin-ship-shape](https://github.com/shipshapecode/eslint-plugin-ship-shape)
 
 The ESLint rules are very similar to the eslint-plugin-ember-suave ones, but a few have been changed.
