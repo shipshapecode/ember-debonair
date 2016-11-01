@@ -12,6 +12,7 @@ module.exports = {
         packages: [
           'ember-cli-code-coverage',
           'ember-cli-eslint',
+          'ember-cli-sass'
         ]
       });
     });
