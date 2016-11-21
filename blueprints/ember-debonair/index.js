@@ -6,6 +6,7 @@ module.exports = {
     return this.addPackagesToProject([
       'babel-eslint',
       'codeclimate-test-reporter',
+      'ember-template-lint',
       'eslint-plugin-ship-shape'
       ])
     .then(() => {
