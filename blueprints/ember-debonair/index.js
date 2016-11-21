@@ -4,6 +4,7 @@ module.exports = {
 
   afterInstall: function() {
     return this.addPackagesToProject([
+      'babel-eslint',
       'codeclimate-test-reporter',
       'eslint-plugin-ship-shape'
       ])
