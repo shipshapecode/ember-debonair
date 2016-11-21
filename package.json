@@ -26,7 +26,7 @@
   },
   "dependencies": {
     "ember-cli-babel": "^5.1.7",
-    "eslint-plugin-ship-shape": "^0.2.1"
+    "eslint-plugin-ship-shape": "^0.3.0"
   },
   "devDependencies": {
     "broccoli-asset-rev": "^2.4.5",
