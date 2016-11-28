@@ -5,17 +5,17 @@ module.exports = {
   beforeInstall: function() {
     return this.addAddonsToProject({
       packages: [
-        'ember-cli-code-coverage',
-        'ember-cli-eslint',
-        'ember-cli-sass'
+        {name: 'ember-cli-code-coverage'},
+        {name: 'ember-cli-eslint'},
+        {name: 'ember-cli-sass'}
       ]
     })
     .then(() => {
       return this.addPackagesToProject([
-        'babel-eslint',
-        'codeclimate-test-reporter',
-        'ember-template-lint',
-        'eslint-plugin-ship-shape'
+        {name: 'babel-eslint'},
+        {name: 'codeclimate-test-reporter'},
+        {name: 'ember-template-lint'},
+        {name: 'eslint-plugin-ship-shape'}
       ]);
     });
   }
