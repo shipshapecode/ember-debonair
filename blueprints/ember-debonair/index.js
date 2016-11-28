@@ -7,7 +7,8 @@ module.exports = {
       packages: [
         {name: 'ember-cli-code-coverage'},
         {name: 'ember-cli-eslint'},
-        {name: 'ember-cli-sass'}
+        {name: 'ember-cli-sass'},
+        {name: 'flexi'}
       ]
     })
     .then(() => {
