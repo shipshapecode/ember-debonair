@@ -2,6 +2,9 @@
 
 <a href="https://shipshape.io/"><img src="http://i.imgur.com/bU4ABmk.png" width="100" height="100"/></a>
 
+[![npm version](https://badge.fury.io/js/ember-debonair.svg)](http://badge.fury.io/js/ember-debonair)
+[![Build Status](https://travis-ci.org/shipshapecode/ember-debonair.svg?branch=master)](https://travis-ci.org/shipshapecode/ember-debonair)
+
 Ember-debonair is an oppinionated set of ESLint rules, addons, configurations, etc used throughout all [Ship Shape](https://shipshape.io) addons and apps.
 
 This includes adding:
