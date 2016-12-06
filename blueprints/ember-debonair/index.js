@@ -8,6 +8,7 @@ module.exports = {
         {name: 'ember-cli-code-coverage'},
         {name: 'ember-cli-eslint'},
         {name: 'ember-cli-sass'},
+        {name: 'ember-cli-template-lint'},
         {name: 'flexi'}
       ]
     })
@@ -15,7 +16,6 @@ module.exports = {
       return this.addPackagesToProject([
         {name: 'babel-eslint'},
         {name: 'codeclimate-test-reporter'},
-        {name: 'ember-template-lint'},
         {name: 'eslint-plugin-ship-shape'}
       ]);
     });
