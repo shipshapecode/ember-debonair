@@ -5,7 +5,7 @@
 [![npm version](https://badge.fury.io/js/ember-debonair.svg)](http://badge.fury.io/js/ember-debonair)
 [![Build Status](https://travis-ci.org/shipshapecode/ember-debonair.svg?branch=master)](https://travis-ci.org/shipshapecode/ember-debonair)
 
-Ember-debonair is an oppinionated set of ESLint rules, addons, configurations, etc used throughout all [Ship Shape](https://shipshape.io) addons and apps.
+Ember-debonair is an oppinionated set of ESLint rules, addons, configurations, etc. that you can use to get up and running quickly with your Ember app or addon. The rules and addons, included here, are heavily used throughout the Ember community, but are tweaked slightly to the opinions I wanted to enforce for [Ship Shape](https://shipshape.io) addons and apps.
 
 This includes adding:
 * [ember-cli-eslint](https://github.com/ember-cli/ember-cli-eslint)
