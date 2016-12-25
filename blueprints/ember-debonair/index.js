@@ -9,6 +9,7 @@ module.exports = {
         {name: 'ember-cli-eslint'},
         {name: 'ember-cli-sass'},
         {name: 'ember-cli-template-lint'},
+        {name: 'ember-computed-decorators'},
         {name: 'flexi'}
       ]
     })
