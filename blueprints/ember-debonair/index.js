@@ -18,7 +18,8 @@ module.exports = {
       return this.addPackagesToProject([
         {name: 'babel-eslint'},
         {name: 'codeclimate-test-reporter'},
-        {name: 'eslint-plugin-ship-shape'}
+        {name: 'eslint-plugin-ship-shape'},
+        {name: 'stylelint-config-ship-shape'}
       ]);
     });
   }
