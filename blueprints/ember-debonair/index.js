@@ -8,6 +8,7 @@ module.exports = {
         {name: 'ember-cli-code-coverage'},
         {name: 'ember-cli-eslint'},
         {name: 'ember-cli-sass'},
+        {name: 'ember-cli-stylelint'},
         {name: 'ember-cli-template-lint'},
         {name: 'ember-computed-decorators'},
         {name: 'flexi'}
