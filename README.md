@@ -5,6 +5,7 @@
 [![npm version](https://badge.fury.io/js/ember-debonair.svg)](http://badge.fury.io/js/ember-debonair)
 [![Build Status](https://travis-ci.org/shipshapecode/ember-debonair.svg?branch=master)](https://travis-ci.org/shipshapecode/ember-debonair)
 
+# About
 Ember-debonair is an oppinionated set of ESLint rules, addons, configurations, etc. that you can use to get up and running quickly with your Ember app or addon. You can use these addons to enforce code style and code coverage, setup a grid with flexi, use SCSS for your styles, etc. The rules and addons, included here, are heavily used throughout the Ember community, but are tweaked slightly to the opinions I wanted to enforce for [Ship Shape](https://shipshape.io) addons and apps.
 
 # Installation
