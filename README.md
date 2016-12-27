@@ -23,6 +23,7 @@ ember install ember-debonair
 
 ## Code Style
 * [ember-cli-eslint](https://github.com/ember-cli/ember-cli-eslint) Allows using ESLint to enforce JS style
+* [ember-cli-stylelint](https://github.com/billybonks/ember-cli-stylelint) Enforce style for your scss files
 * [ember-cli-template-lint](https://github.com/rwjblue/ember-cli-template-lint) Enforces template styles
 * [eslint-plugin-ship-shape](https://github.com/shipshapecode/eslint-plugin-ship-shape) A combination of eslint-plugin-ember-suave and eslint-plugin-netguru-ember that combines the best of each ruleset
 
