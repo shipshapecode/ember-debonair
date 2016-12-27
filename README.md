@@ -14,16 +14,16 @@ ember install ember-debonair
 # Included packages
 
 ## App Styling
-* [ember-cli-sass](https://github.com/aexmachina/ember-cli-sass)
-* [flexi](https://github.com/html-next/flexi)
+* [ember-cli-sass](https://github.com/aexmachina/ember-cli-sass) Allows using scss for styles
+* [flexi](https://github.com/html-next/flexi) Provides a lightweight grid based on flexbox
 
 ## Code Climate / Test Coverage
 `codeclimate-test-reporter` is added to the project, so that we can easily update test coverage stats using Travis.
 
 ## Code Style
-* [ember-cli-eslint](https://github.com/ember-cli/ember-cli-eslint)
-* [ember-cli-template-lint](https://github.com/rwjblue/ember-cli-template-lint)
-* [eslint-plugin-ship-shape](https://github.com/shipshapecode/eslint-plugin-ship-shape)
+* [ember-cli-eslint](https://github.com/ember-cli/ember-cli-eslint) Allows using ESLint to enforce JS style
+* [ember-cli-template-lint](https://github.com/rwjblue/ember-cli-template-lint) Enforces template styles
+* [eslint-plugin-ship-shape](https://github.com/shipshapecode/eslint-plugin-ship-shape) A combination of eslint-plugin-ember-suave and eslint-plugin-netguru-ember that combines the best of each ruleset
 
 ## Misc
-* [ember-computed-decorators](https://github.com/rwjblue/ember-computed-decorators)
+* [ember-computed-decorators](https://github.com/rwjblue/ember-computed-decorators) Allows using decorators in place of computed properties, to DRY up your code.
