@@ -10,7 +10,7 @@ module.exports = {
         {name: 'ember-cli-stylelint'},
         {name: 'ember-cli-template-lint'},
         {name: 'ember-computed-decorators'},
-        {name: 'flexi'}
+        {name: 'html-next/flexi'}
       ]
     })
     .then(() => {
