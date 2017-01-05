@@ -63,6 +63,11 @@ module.exports = {
         },
         {
           checked: true,
+          name: 'ember-component-css',
+          value: { name: 'ember-component-css' }
+        },
+        {
+          checked: true,
           name: 'ember-computed-decorators',
           value: { name: 'ember-computed-decorators' }
         },
