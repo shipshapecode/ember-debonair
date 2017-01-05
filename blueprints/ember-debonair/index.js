@@ -38,6 +38,11 @@ module.exports = {
       choices: [
         {
           checked: true,
+          name: 'ember-cli-autoprefixer',
+          value: { name: 'ember-cli-autoprefixer' }
+        },
+        {
+          checked: true,
           name: 'ember-cli-code-coverage',
           value: { name: 'ember-cli-code-coverage' }
         },
