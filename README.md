@@ -21,7 +21,7 @@ ember install ember-debonair
 * [flexi](https://github.com/html-next/flexi) Provides a lightweight grid based on flexbox
 
 ## Code Climate / Test Coverage
-* `codeclimate-test-reporter` Uploads code coverage data, during Travis build.
+* [codeclimate-test-reporter](https://github.com/codeclimate/javascript-test-reporter) Uploads code coverage data, during Travis build
 * [ember-cli-code-coverage](https://github.com/kategengler/ember-cli-code-coverage) Computes code coverage data
 
 ## Code Style
