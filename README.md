@@ -18,6 +18,7 @@ ember install ember-debonair
 
 ## App Styling
 * [ember-cli-sass](https://github.com/aexmachina/ember-cli-sass) Allows using scss for styles
+* [ember-component-css](https://github.com/ebryn/ember-component-css) Allows defining styles inside component pod directories
 * [flexi](https://github.com/html-next/flexi) Provides a lightweight grid based on flexbox
 
 ## Code Climate / Test Coverage
