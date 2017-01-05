@@ -8,16 +8,19 @@ module.exports = {
 
   afterInstall: function() {
     return this._chooseAddonsToInstall()
-      .then((selected) => {
-        return this.addAddonsToProject({
-          packages: selected.addonsToInstall
+      .then((addons) => {
+        return RSVP.hash({
+          addons: addons,
+          packages: this._choosePackagesToInstall()
         });
       })
-      .then(() => {
-        return this._choosePackagesToInstall()
-          .then((selected) => {
-            return this.addPackagesToProject(selected.packagesToInstall);
-          });
+      .then((selected) => {
+        return RSVP.all([
+          this.addAddonsToProject({
+            packages: selected.addons
+          }),
+          this.addPackagesToProject(selected.packages)
+        ]);
       });
   },
 
@@ -64,7 +67,10 @@ module.exports = {
           value: { name: 'html-next/flexi' }
         }
       ]
-    });
+    })
+      .then((selected) => {
+        return selected.addonsToInstall;
+      });
   },
 
   /**
@@ -105,6 +111,9 @@ module.exports = {
           value: { name: 'stylelint-config-ship-shape' }
         }
       ]
-    });
+    })
+      .then((selected) => {
+        return selected.packagesToInstall;
+      });
   }
 };
