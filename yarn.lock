@@ -1890,7 +1890,7 @@ ember-cli-release@^0.2.9:
     semver "^4.3.1"
     silent-error "^1.0.0"
 
-ember-cli-sass@6.0.0, ember-cli-sass@^6.0.0:
+ember-cli-sass@6.0.0:
   version "6.0.0"
   resolved "https://registry.yarnpkg.com/ember-cli-sass/-/ember-cli-sass-6.0.0.tgz#31c9c8fa789c0d25aaf8e315431b7a3ec4ba0175"
   dependencies:
@@ -2303,9 +2303,9 @@ escope@^3.2.0, escope@^3.6.0:
     esrecurse "^4.1.0"
     estraverse "^4.1.1"
 
-eslint-plugin-ship-shape@^0.3.0:
-  version "0.3.0"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-ship-shape/-/eslint-plugin-ship-shape-0.3.0.tgz#1f6355f7062c7f6a669da0c76778145b9be53168"
+eslint-plugin-ship-shape@^0.4.0:
+  version "0.4.0"
+  resolved "https://registry.npmjs.org/eslint-plugin-ship-shape/-/eslint-plugin-ship-shape-0.4.0.tgz#5e957dda8267eb6350b295b4d4dc26b2aaf34da5"
   dependencies:
     babel-eslint "^7.1.0"
     requireindex "~1.1.0"
@@ -2677,7 +2677,7 @@ flexi@html-next/flexi:
     ember-cli-babel "^5.1.6"
     ember-cli-htmlbars "^1.0.3"
     ember-cli-preprocess-registry "^3.0.0"
-    ember-cli-sass "6.0.0"
+    ember-cli-sass "^5.3.1"
     ember-getowner-polyfill "^1.0.1"
     object-assign "^4.0.1"
     rsvp "^3.2.0"
