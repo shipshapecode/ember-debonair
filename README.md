@@ -29,6 +29,7 @@ ember install ember-debonair
 * [ember-cli-stylelint](https://github.com/billybonks/ember-cli-stylelint) Enforce style for your scss files
 * [ember-cli-template-lint](https://github.com/rwjblue/ember-cli-template-lint) Enforces template styles
 * [eslint-plugin-ship-shape](https://github.com/shipshapecode/eslint-plugin-ship-shape) A combination of eslint-plugin-ember-suave and eslint-plugin-netguru-ember that combines the best of each ruleset
+* [stylelint-config-ship-shape](https://github.com/shipshapecode/stylelint-config-ship-shape)
 
 ## Misc
 * [ember-computed-decorators](https://github.com/rwjblue/ember-computed-decorators) Allows using decorators in place of computed properties, to DRY up your code.
@@ -38,3 +39,6 @@ ember install ember-debonair
 ## ESLint
 * `.eslintrc.js` Extends `eslint-plugin-ship-shape`
 * `/tests/.eslintrc.js` Uses the default `embertest` from ember-cli-eslint
+
+## Stylelint
+* `.stylelintrc.js` Extends `stylelint-config-ship-shape`
