@@ -1,26 +1,110 @@
 /* eslint-disable */
+
+var RSVP = require('rsvp');
+
 module.exports = {
-  normalizeEntityName: function() {},
+  normalizeEntityName: function() {
+  },
 
   afterInstall: function() {
-    return this.addAddonsToProject({
-      packages: [
-        {name: 'ember-cli-code-coverage'},
-        {name: 'ember-cli-sass'},
-        {name: 'ember-cli-stylelint'},
-        {name: 'ember-cli-template-lint'},
-        {name: 'ember-computed-decorators'},
-        {name: 'html-next/flexi'}
+    return this._chooseAddonsToInstall()
+      .then((selected) => {
+        return this.addAddonsToProject({
+          packages: selected.addonsToInstall
+        });
+      })
+      .then(() => {
+        return this._choosePackagesToInstall()
+          .then((selected) => {
+            return this.addPackagesToProject(selected.packagesToInstall);
+          });
+      });
+  },
+
+  /**
+   * Uses inquirer to prompt the user to select which addons to install
+   * @returns {Promise} Resolves into array of selected addons
+   * @private
+   */
+  _chooseAddonsToInstall: function() {
+    // Ask which ember addons to install
+    return this.ui.prompt({
+      type: 'checkbox',
+      name: 'addonsToInstall',
+      message: 'Which addons would you like to install?',
+      choices: [
+        {
+          checked: true,
+          name: 'ember-cli-code-coverage',
+          value: { name: 'ember-cli-code-coverage' }
+        },
+        {
+          checked: true,
+          name: 'ember-cli-sass',
+          value: { name: 'ember-cli-sass' }
+        },
+        {
+          checked: true,
+          name: 'ember-cli-stylelint',
+          value: { name: 'ember-cli-stylelint' }
+        },
+        {
+          checked: true,
+          name: 'ember-cli-template-lint',
+          value: { name: 'ember-cli-template-lint' }
+        },
+        {
+          checked: true,
+          name: 'ember-computed-decorators',
+          value: { name: 'ember-computed-decorators' }
+        },
+        {
+          checked: true,
+          name: 'flexi',
+          value: { name: 'html-next/flexi' }
+        }
       ]
-    })
-    .then(() => {
-      return this.addPackagesToProject([
-        {name: 'babel-eslint'},
-        {name: 'codeclimate-test-reporter'},
-        {name: 'ember-cli-eslint'},
-        {name: 'eslint-plugin-ship-shape'},
-        {name: 'stylelint-config-ship-shape'}
-      ]);
+    });
+  },
+
+  /**
+   * Uses inquirer to prompt the user to select which packages to install
+   * @returns {Promise} Resolves into array of selected packages
+   * @private
+   */
+  _choosePackagesToInstall: function() {
+    // Ask which npm packages to install
+    return this.ui.prompt({
+      type: 'checkbox',
+      name: 'packagesToInstall',
+      message: 'Which packages would you like to install?',
+      choices: [
+        {
+          checked: true,
+          name: 'babel-eslint',
+          value: { name: 'babel-eslint' }
+        },
+        {
+          checked: true,
+          name: 'codeclimate-test-reporter',
+          value: { name: 'codeclimate-test-reporter' }
+        },
+        {
+          checked: true,
+          name: 'ember-cli-eslint',
+          value: { name: 'ember-cli-eslint' }
+        },
+        {
+          checked: true,
+          name: 'eslint-plugin-ship-shape',
+          value: { name: 'eslint-plugin-ship-shape' }
+        },
+        {
+          checked: true,
+          name: 'stylelint-config-ship-shape',
+          value: { name: 'stylelint-config-ship-shape' }
+        }
+      ]
     });
   }
 };
