@@ -14,7 +14,7 @@ Ember-debonair is an oppinionated set of ESLint rules, addons, configurations, e
 ```bash
 ember install ember-debonair
 ```
-# Included packages
+# Packages
 
 ## App Styling
 * [ember-cli-sass](https://github.com/aexmachina/ember-cli-sass) Allows using scss for styles
@@ -32,3 +32,9 @@ ember install ember-debonair
 
 ## Misc
 * [ember-computed-decorators](https://github.com/rwjblue/ember-computed-decorators) Allows using decorators in place of computed properties, to DRY up your code.
+
+# Files
+
+## ESLint
+* `.eslintrc.js` Extends `eslint-plugin-ship-shape`
+* `/tests/.eslintrc.js` Uses the default `embertest` from ember-cli-eslint
