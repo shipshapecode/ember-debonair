@@ -74,7 +74,7 @@ module.exports = {
         {
           checked: true,
           name: 'flexi',
-          value: { name: 'html-next/flexi' }
+          value: { name: 'flexi' }
         }
       ]
     })
