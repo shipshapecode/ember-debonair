@@ -107,11 +107,6 @@ module.exports = {
         },
         {
           checked: true,
-          name: 'ember-cli-eslint',
-          value: { name: 'ember-cli-eslint' }
-        },
-        {
-          checked: true,
           name: 'eslint-plugin-ship-shape',
           value: { name: 'eslint-plugin-ship-shape' }
         },
