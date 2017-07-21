@@ -34,6 +34,7 @@ ember install ember-debonair
 * [stylelint-config-ship-shape](https://github.com/shipshapecode/stylelint-config-ship-shape)
 
 ## Misc
+* [ember-chrome-devtools](https://github.com/dwickern/ember-chrome-devtools)
 * [ember-cli-autoprefixer](https://github.com/kimroen/ember-cli-autoprefixer) Automatically add vendor prefixes to styles
 
 # Files

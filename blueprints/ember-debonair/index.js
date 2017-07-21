@@ -38,6 +38,11 @@ module.exports = {
       choices: [
         {
           checked: true,
+          name: 'ember-chrome-devtools',
+          value: { name: 'ember-chrome-devtools' }
+        },
+        {
+          checked: true,
           name: 'ember-cli-autoprefixer',
           value: { name: 'ember-cli-autoprefixer' }
         },
