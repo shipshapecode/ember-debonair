@@ -68,11 +68,6 @@ module.exports = {
         },
         {
           checked: true,
-          name: 'ember-computed-decorators',
-          value: { name: 'ember-computed-decorators' }
-        },
-        {
-          checked: true,
           name: 'flexi',
           value: { name: 'flexi' }
         }
@@ -97,18 +92,18 @@ module.exports = {
       choices: [
         {
           checked: true,
-          name: 'babel-eslint',
-          value: { name: 'babel-eslint' }
-        },
-        {
-          checked: true,
           name: 'codeclimate-test-reporter',
           value: { name: 'codeclimate-test-reporter' }
         },
         {
           checked: true,
-          name: 'eslint-plugin-ship-shape',
-          value: { name: 'eslint-plugin-ship-shape' }
+          name: 'eslint-plugin-ember',
+          value: { name: 'eslint-plugin-ember' }
+        },
+        {
+          checked: true,
+          name: 'eslint-plugin-ember-suave',
+          value: { name: 'eslint-plugin-ember-suave' }
         },
         {
           checked: true,
