@@ -4096,6 +4096,10 @@ object-component@0.0.3:
   version "0.0.3"
   resolved "https://registry.yarnpkg.com/object-component/-/object-component-0.0.3.tgz#f0c69aa50efc95b866c186f400a33769cb2f1291"
 
+object-path@0.6.0:
+  version "0.6.0"
+  resolved "https://registry.yarnpkg.com/object-path/-/object-path-0.6.0.tgz#b69a7d110937934f336ca561fd9be1ad7b7e0cb7"
+
 object.omit@^2.0.0:
   version "2.0.1"
   resolved "https://registry.yarnpkg.com/object.omit/-/object.omit-2.0.1.tgz#1a9c744829f39dbb858c76ca3579ae2a54ebd1fa"
@@ -4869,6 +4873,12 @@ socket.io@1.6.0:
     socket.io-adapter "0.5.0"
     socket.io-client "1.6.0"
     socket.io-parser "2.3.1"
+
+sort-by@^1.2.0:
+  version "1.2.0"
+  resolved "https://registry.yarnpkg.com/sort-by/-/sort-by-1.2.0.tgz#ed92bbff9fd2284b41f6503e38496607b225fe6f"
+  dependencies:
+    object-path "0.6.0"
 
 sort-object-keys@^1.1.1:
   version "1.1.2"

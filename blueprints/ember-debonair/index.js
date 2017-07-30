@@ -1,6 +1,7 @@
 /* eslint-env node */
 
 const RSVP = require('rsvp');
+const sortBy = require('sort-by');
 
 module.exports = {
   normalizeEntityName() {
@@ -41,11 +42,6 @@ module.exports = {
       },
       {
         checked: true,
-        name: 'ember-cli-autoprefixer',
-        value: { name: 'ember-cli-autoprefixer' }
-      },
-      {
-        checked: true,
         name: 'ember-cli-code-coverage',
         value: { name: 'ember-cli-code-coverage' }
       },
@@ -68,10 +64,16 @@ module.exports = {
         checked: true,
         name: 'ember-component-css',
         value: { name: 'ember-component-css' }
+      },
+      {
+        checked: true,
+        name: 'flexi',
+        value: { name: 'flexi' }
       }
     ];
 
     if (isAddon) {
+      // If an addon, add addon only dependency choices
       choices = [...choices,
         {
           checked: true,
@@ -79,15 +81,19 @@ module.exports = {
           value: { name: 'ember-fastboot-addon-tests' }
         }
       ];
+    } else {
+      // If an app, add app only dependency choices
+      choices = [...choices,
+        {
+          checked: true,
+          name: 'ember-cli-autoprefixer',
+          value: { name: 'ember-cli-autoprefixer' }
+        }
+      ];
     }
 
-    choices = [...choices,
-      {
-        checked: true,
-        name: 'flexi',
-        value: { name: 'flexi' }
-      }
-    ];
+    // Sort in alphabetical order
+    choices.sort(sortBy('name'));
 
     // Ask which ember addons to install
     return this.ui.prompt({
