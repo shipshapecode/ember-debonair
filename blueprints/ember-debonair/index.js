@@ -18,12 +18,21 @@ module.exports = {
         });
       })
       .then((selected) => {
-        return RSVP.all([
-          this.addAddonsToProject({
-            packages: selected.addons
-          }),
-          this.addPackagesToProject(selected.packages)
-        ]);
+        let promises = [];
+
+        if (selected.addons && selected.addons.length) {
+          promises = [
+            this.addAddonsToProject({
+              packages: selected.addons
+            })
+          ];
+        }
+
+        if (selected.packages && selected.packages.length) {
+          promises = [...promises, this.addPackagesToProject(selected.packages)];
+        }
+
+        return RSVP.all(promises);
       });
   },
 
