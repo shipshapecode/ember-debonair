@@ -2,6 +2,8 @@
 
 <a href="https://shipshape.io/"><img src="http://i.imgur.com/bU4ABmk.png" width="100" height="100"/></a>
 
+**[ember-debonair is built and maintained by Ship Shape. Contact us for Ember.js consulting, development, and training for your project](https://shipshape.io/ember-consulting)**.
+
 [![npm version](https://badge.fury.io/js/ember-debonair.svg)](http://badge.fury.io/js/ember-debonair)
 [![Ember Observer Score](http://emberobserver.com/badges/ember-debonair.svg)](http://emberobserver.com/addons/ember-debonair)
 [![Build Status](https://travis-ci.org/shipshapecode/ember-debonair.svg?branch=master)](https://travis-ci.org/shipshapecode/ember-debonair)
