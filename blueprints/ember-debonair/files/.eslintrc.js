@@ -13,6 +13,7 @@ module.exports = {
     browser: true
   },
   rules: {
+    'operator-linebreak': ['error', 'after'],
     'prefer-const': 'error',
 
     'ember/no-old-shims': 'error',
