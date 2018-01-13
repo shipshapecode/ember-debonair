@@ -131,11 +131,6 @@ module.exports = {
       },
       {
         checked: true,
-        name: 'eslint-plugin-ember',
-        value: { name: 'eslint-plugin-ember' }
-      },
-      {
-        checked: true,
         name: 'eslint-plugin-ember-suave',
         value: { name: 'eslint-plugin-ember-suave' }
       },
