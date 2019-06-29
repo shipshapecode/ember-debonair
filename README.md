@@ -1,4 +1,5 @@
-# Ember-debonair
+ember-debonair
+==============================================================================
 
 <a href="https://shipshape.io/"><img src="http://i.imgur.com/KVqNjgO.png" alt="Ship Shape" width="100" height="100"/></a>
 
@@ -8,14 +9,22 @@
 [![Ember Observer Score](http://emberobserver.com/badges/ember-debonair.svg)](http://emberobserver.com/addons/ember-debonair)
 [![Build Status](https://travis-ci.org/shipshapecode/ember-debonair.svg?branch=master)](https://travis-ci.org/shipshapecode/ember-debonair)
 
+Compatibility
+------------------------------------------------------------------------------
+
+* Ember.js v2.18 or above
+* Ember CLI v2.13 or above
+* Node.js v8 or above
 
 # About
 Ember-debonair is an oppinionated set of ESLint rules, addons, configurations, etc. that you can use to get up and running quickly with your Ember app or addon. You can use these addons to enforce code style and code coverage, setup a grid with flexi, use SCSS for your styles, etc. The rules and addons, included here, are heavily used throughout the Ember community, but are tweaked slightly to the opinions I wanted to enforce for [Ship Shape](https://shipshape.io) addons and apps.
 
-# Installation
-```bash
+Installation
+------------------------------------------------------------------------------
+```
 ember install ember-debonair
 ```
+
 # Packages
 
 ## App Styling
@@ -47,3 +56,14 @@ ember install ember-debonair
 
 ## Stylelint
 * `.stylelintrc.js` Extends `stylelint-config-ship-shape`
+
+Contributing
+------------------------------------------------------------------------------
+
+See the [Contributing](CONTRIBUTING.md) guide for details.
+
+
+License
+------------------------------------------------------------------------------
+
+This project is licensed under the [MIT License](LICENSE.md).

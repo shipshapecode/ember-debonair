@@ -73,11 +73,6 @@ module.exports = {
         checked: true,
         name: 'ember-component-css',
         value: { name: 'ember-component-css' }
-      },
-      {
-        checked: true,
-        name: 'flexi',
-        value: { name: 'flexi' }
       }
     ];
 
