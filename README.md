@@ -7,7 +7,7 @@ ember-debonair
 
 [![npm version](https://badge.fury.io/js/ember-debonair.svg)](http://badge.fury.io/js/ember-debonair)
 [![Ember Observer Score](http://emberobserver.com/badges/ember-debonair.svg)](http://emberobserver.com/addons/ember-debonair)
-[![Build Status](https://travis-ci.org/shipshapecode/ember-debonair.svg?branch=master)](https://travis-ci.org/shipshapecode/ember-debonair)
+[![Build Status](https://travis-ci.org/shipshapecode/ember-debonair.svg?branch=master)](https://travis-ci.org/shipshapecode/ember-debonair) [![Greenkeeper badge](https://badges.greenkeeper.io/shipshapecode/ember-debonair.svg)](https://greenkeeper.io/)
 
 Compatibility
 ------------------------------------------------------------------------------
